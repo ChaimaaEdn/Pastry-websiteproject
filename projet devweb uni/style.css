@@ -1,0 +1,486 @@
+/* Global Styles */
+body,html{
+    height: 100%;
+    width: 100%;
+  padding: 0%; /* Remove padding */
+ margin: 0%;  /* Remove margin */
+background-image: url('http://images.assetsdelivery.com/compings_v2/vronnika/vronnika1705/vronnika170500020.jpg');
+ background-repeat: repeat;
+ overflow-x: hidden;  /* Hide horizontal overflow */
+}
+/* Styles for the header */
+header {
+  background-color: rgb(255, 255, 255); /* Background color */
+  padding: 5px 10px; /* Padding for the header */
+  box-shadow: 50px 0px 50px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  border-radius: 100px; /* Rounded corners */
+  margin-bottom: 1%; /* Bottom margin */
+  margin-top: 0%; /* Top margin */
+}
+
+/* Styles for the navbar */
+.navbar {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items evenly along the main axis */
+  align-items: center; /* Center items along the cross axis */
+}
+
+/* Styles for the logo */
+.navbar img {
+  max-width: 160px; /* Maximum width of the logo */
+  margin-bottom: 5px; /* Margin below the logo */
+}
+
+/* Styles for the text/logo */
+.text {
+  flex-grow: 1; /* Allow text to fill available space */
+  text-align: center; /* Center the text */
+}
+
+/* Styles for the navigation links */
+.navbar ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow links to wrap */
+  justify-content: flex-end; /* Align links to the right */
+  align-items: center; /* Center items along the cross axis */
+}
+
+/* Styles for each navigation link */
+.navbar ul li {
+  margin-right: 10px; /* Margin between links */
+  margin-bottom: 10px; /* Margin below links */
+  margin-left: 40px; /* Additional left margin */
+font-size: 1.8vw;
+}
+
+/* Styles for the last navigation link */
+.navbar ul li:last-child {
+  margin-right: 0; /* Remove right margin for last link */
+}
+
+/* Styles for the navigation link text */
+.navbar ul li a {
+  text-decoration: none; /* Remove underline */
+  color: #ed82b4; /* Link text color */
+  font-weight: bold; /* Bold font weight */
+  transition: color 0.2s; /* Smooth color transition */
+}
+
+/* Hover styles for navigation links */
+.navbar ul li a:hover {
+  color: #1ebcdf; /* Change color on hover */
+}
+
+
+.definition{
+letter-spacing: 1px;
+line-height:40px;
+min-width: 70%; /* Adjust the width as needed */
+  max-width: 95%; /* Add a maximum width for better responsiveness */
+  margin: auto;
+  border-radius: 20%;
+  padding: 20px; /* Add padding for better visual appearance */
+  background-color: #ce76a8;
+  
+}
+.decouvert {
+    text-decoration: double; /* Update text decoration to double */
+    background-color: rgb(239, 189, 208); /* Update background color */
+    border: 1px solid #ce76a8; /* Add a solid border */
+    border-radius: 60px; /* Apply border radius */
+    padding: 10px 20px; /* Add padding */
+    color: #451818; /* Change text color */
+    font-size: 18px; /* Change font size */
+    font-weight: bold; /* Apply bold font weight */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+    transition: all 0.2s ease; /* Add transition effect */
+}
+
+/* Hover effect */
+.decouvert:hover {
+    background-color: #b42d7b; /* Change background color on hover */
+    color: rgb(205, 193, 193); /* Change text color on hover */
+    border-color: #cacaca; /* Change border color on hover */
+}
+
+/* Hover Effects */
+/* Adjust hover effects for certain elements */
+/* Example: Adjust border width, padding, background image, font size, etc. */
+.aaa{
+    text-shadow: 4px 4px 1px rgb(248, 196, 100);
+    border-style: double;
+    border-color: rgb(244, 164, 255);
+    border-width: 15px;
+    background-color: rgb(234, 219, 228);
+    padding: 50px;
+    margin: 50px;
+    border-top-left-radius :400px;;
+    border-top-right-radius:40px ;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius:400px ;
+    transition: 2s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+
+}
+.aaa:hover {
+padding: 100px ;
+margin-top: 100px;
+border-width:1px;
+border-color:black;
+background-image:url('https://a-static.besthdwallpaper.com/colorful-cupcake-wallpaper-2560x1080-2832_14.jpg');
+background-size: cover;
+font-size: 60px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 10px;
+word-spacing: 30px; 
+text-decoration-color:rgb(255, 255, 255);
+
+} 
+.trouver {
+width: 100%;
+background-color:rgb(216, 94, 135);
+transition: 1s;
+font-size: 35px;
+    display: flex; /* Use flexbox to center the form */
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Center the form vertically */
+    border-radius: 90px;
+}
+
+
+.trouver:hover{
+
+background-color: rgb(255, 184, 214);
+font-weight: 30px;
+font-size: 50px;}
+
+.bien {
+  background-color: rgb(110, 228, 243);
+  border-style: initial;
+  border-color:rgb(110, 243, 225);
+  border-width: 10px;
+  padding: 30px;
+  margin:10px;
+  border-radius: 50px 50px 50px 50px;
+  height: 20px;
+  width: 800px;
+  transition:1s;
+  text-align: center;
+  font-size: 6.5vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+letter-spacing: 0.05rem;
+  }
+  .bien:hover{
+   Width: 100%;
+   height: 80px;
+  padding: 0px;
+  margin: 0px;
+  background-color :palevioletred;
+  border-color:palevioletred;
+  font-size: 90px;
+ font-family:'Courier New', Courier, monospace;
+font-size: 9vw;
+}
+
+
+.definition {
+border: 5px;
+background: white;
+font-weight:bolder;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aaa{
+font-family:Georgia, 'Times New Roman', Times, serif ;
+display: flex;  
+justify-content: center;
+align-items: center;
+}
+.decouvert{
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.remplir {
+    width:100%;
+    height: 10px;
+color: black;
+border: 20px;
+padding: 20px;
+border-width: 0px;
+background-color:rgb(216, 94, 135) ;
+border-radius: 200px 200px 200px 200px;
+transition: 1s;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.remplir:hover{
+width: 100%;
+height: 20px;
+font-size: 30px;
+background-color: rgb(255, 184, 214);
+
+}
+
+
+
+
+.container {
+    display: flex; /* Use flexbox to center the form */
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Center the form vertically */
+    height: 60vh; /* Set the height of the container to 100% of the viewport height */
+  }
+  
+  h1{
+    position: absolute; /* Position the h1 absolutely */
+  left: 50%; /* Move the h1 horizontally to the center */
+  transform: translateX(-50%); 
+  }
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    display:flex;
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+   
+}
+.card-content{
+padding: 16px;
+position: relative;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content .btn{
+    display: inline-block;
+    padding: 8px 16px ;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #1c426b;
+}
+
+.login {
+    width: 300px;
+    padding: 20px;
+    background-color: #c2ebeb;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login input[type="text"],
+.login input[type="email"],
+.login input[type="tel"],
+.login input[type="submit"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #b91670;
+    border-radius: 4px;
+}
+
+.login input[type="submit"] {
+    background-color: #333;
+    color: #e8e8e8;
+    border: none;
+    cursor: pointer;
+}
+
+
+  
+  .reviews-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url(imgs/pexels-snapwire-37728.jpg);
+    border-radius: 10px; /* Rounded corners */
+    animation: fadeIn 0.5s ease-out; /* Apply fade-in animation */
+    margin-bottom: 100px;
+  }
+  
+  .review {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden; /* Ensure the border radius is applied correctly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    animation: fadeIn 0.5s ease-out; /* Apply fade-in animation */
+    
+  }
+  
+  .review-content {
+    padding: 20px;
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .review-author {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .review-rating {
+    font-size: 18px;
+  }
+  
+  .review p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  h2{
+    text-align: center;
+    font-size: 24px; /* Taille de police */
+    color: #000000; /* Couleur du texte */
+    margin-top: 20px; /* Marge en haut */
+    margin-bottom: 20px; /* Marge en bas */
+    text-transform: uppercase; /* Convertir le texte en majuscules */
+    letter-spacing: 1px; /* Espacement entre les lettres */
+    font-weight: bold; /* Police en gras */
+    background-color: #b91670;
+   border-radius: 500px;
+   width: 40%;
+  }
+
+  
+
+  footer {
+  
+   width: 100%;
+    margin: 0%;
+    background-color: #f8f8f8;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0px;
+    margin: 10px;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin:  10px;
+  }
+
+  .fa-facebook
+  {
+    font-size: 20px;
+    color:blue;
+    padding-right: 70px;
+    
+
+  }
+
+
+  .fa-twitter
+  {
+    font-size: 20px;
+    color:skyblue;
+    padding-right: 70px;
+  }
+  .fa-instagram
+  {
+    font-size: 20px;
+    color: crimson;
+    padding-right: 70px;
+  }
+  .fa-map-location-dot
+  {
+    font-size: 20px;
+    color: blue;
+  }
+  
+  .contact-info {
+    margin-bottom: 10px;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-nav a:hover {
+    text-decoration: underline;
+    }
+    /* Additional Styles */
+/* Example: Styling for specific elements */
+    .palais-de-saveurs-sucrees {
+        float: left;
+        text-align: left;
+        font-style: italic;
+        margin-top: 5px;
+        margin: bottom 5px;
+      }
+ /* CSS for styling the element */
+ #myElement {
+    display: none; /* Hide the element by default */
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+  
