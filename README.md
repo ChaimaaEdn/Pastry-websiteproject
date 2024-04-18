@@ -25,31 +25,31 @@ Je travaille sur le stylisme d'une page web. Voici un aperçu rapide de ce que c
      ----------------
 Définition de la hauteur et de la largeur des éléments body et HTML à 100%. Ajout d'une image de fond et répétition de celle-ci. Masquage du débordement horizontal. Stylisation de l'en-tête avec un fond blanc, une ombre portée et un bord arrondi. Stylisation de la barre de navigation avec flexbox pour la mise en page et ajustement de la taille des images.
 
-3. Stylisme Responsive :
+2. Stylisme Responsive :
    -------------------
 Ajustement des styles pour les écrans plus petits, y compris les tailles d'image et les marges. Mise en pile des éléments de la barre de navigation verticalement sur les écrans plus petits.
 
-4. Effets au survol :
+3. Effets au survol :
    -----------------
 Ajout d'effets au survol sur des éléments tels que les liens et les conteneurs. Changement des couleurs de fond et des propriétés de police au survol.
 
-6. Effets de Transition :
+4. Effets de Transition :
    ---------------------
 Application d'effets de transition pour lisser les changements au survol.
 
-8. Stylisme des Conteneurs :
+5. Stylisme des Conteneurs :
    ------------------------
 Stylisation des conteneurs en utilisant flexbox pour centrer le contenu.
 
-9. Stylisme des Cartes :
+6. Stylisme des Cartes :
    ----------------------
 Stylisation des cartes pour une disposition basée sur les cartes, y compris les images et le contenu.
 
-11. Stylisme du Formulaire de Connexion :
+7. Stylisme du Formulaire de Connexion :
     ------------------------------------
 Stylisation d'un formulaire de connexion avec des champs de saisie et un bouton de soumission.
 
-13. Stylisme du Pied de Page :
+8. Stylisme du Pied de Page :
     ------------------------
 Stylisation de la section du pied de page avec des liens sociaux et de navigation.
 
