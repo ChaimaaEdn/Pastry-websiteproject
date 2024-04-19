@@ -6,7 +6,7 @@ Rapport sur le site web du Palais de Saveurs Sucrées:
 
 Introduction :
 -------------
-Le site web du Palais de Saveurs Sucrées est une vitrine virtuelle pour une boutique de gâteaux et de pâtisseries. Conçu avec des couleurs rafraîchissantes et programmé en HTML et CSS, il vise à attirer les clients avec son agencement visuellement attrayant et sa navigation facile.
+! Bienvenue sur le site de pâtisserie Palais de Saveurs Sucrées ! Ici, tu trouveras une délicieuse sélection de cupcakes, éclairs, cheesecakes, crêpes, tartelettes et gâteaux. Nous sommes ravis de te faire découvrir nos créations sucrées faites avec amour. Explore notre site pour trouver tes desserts préférés et n'hésite pas à nous contacter si tu as des questions. Régale-toi et laisse-toi emporter par les saveurs exquises de notre pâtisserie. Bonne dégustation ! 🍰🍩🍮
 
 Design et Mise en page :
 -----------------------
